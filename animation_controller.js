@@ -7,6 +7,14 @@ function main(){
 
 
 }
+// the caller function will call this function for given number of times and you can also apecify the time of each iteration and number of time this function should repeat
+
+var counter=0;
+function fun(){
+console.log(counter);
+    counter++;
+}
+
 function Caller(){
     for(var i=0;i<arguments.length;i++){
       var returnedValue=extractor(arguments[i],arguments[i].arguments);
@@ -25,6 +33,8 @@ function Caller(){
     }
     eval(chain);
 }
+// this is how to call this function 
+// fun and fun2 are dummy functions 
 //Caller({"name":fun,"timingOfEachFrame":10,"totalIterations":1,"repeat":0},{"name":fun2,"timingOfEachFrame":100,"totalIterations":20,"repeat":0});
 
 
