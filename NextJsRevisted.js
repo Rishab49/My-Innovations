@@ -5,7 +5,9 @@ function main(){
 
     });
 }
-
+function delay(){
+//this function does nothing but just create some delay between the execution of two async function
+}
 //these are some dummy functions
 
 function fun(){
