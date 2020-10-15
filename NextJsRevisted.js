@@ -6,6 +6,8 @@ function main(){
     });
 }
 
+//these are some dummy functions
+
 function fun(){
     console.log('ganesh');
 }
@@ -13,6 +15,8 @@ function fun(){
 function fun2(){
     console.log('Rishab');
 }
+
+
 var intervalCounter=1;
 function TertiaryBodyCreator(functionObject){
  
@@ -90,8 +94,7 @@ counter++;
     console.log('this is the chain',chain);
    eval(chain);
 }
-Caller({"name":fun,"timingOfEachFrame":100,"totalIterations":20,"repeat":1,"sync":[fun2],"syncTotalIteration":[10],"syncIteration":[100]},{"name":fun2,"timingOfEachFrame":1000,"totalIterations":20,"repeat":0});
+// this is how you have to call this main function in your js file
+//Caller({"name":fun,"timingOfEachFrame":100,"totalIterations":20,"repeat":1,"sync":[fun2],"syncTotalIteration":[10],"syncIteration":[100]},{"name":fun2,"timingOfEachFrame":1000,"totalIterations":20,"repeat":0});
 
 
-
-//just replace return with resolve and check for condition to  resolve;
